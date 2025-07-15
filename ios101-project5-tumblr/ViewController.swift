@@ -8,7 +8,9 @@ import Nuke
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet weak var tableViewLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
